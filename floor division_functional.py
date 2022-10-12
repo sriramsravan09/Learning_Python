@@ -8,7 +8,4 @@ print("second value is" + y)
 # floordiv the numbers and store the results
 print("results")
 z = (int(x) // int(y))
-if z < 0:
-    print(-z)
-else:
-    print(z)
+print(z)

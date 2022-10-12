@@ -5,7 +5,7 @@ print("first value is" + x)
 print("enter second input")
 y = input("enter second input")
 print("second value is" + y)
-# sub the numbers and store the results
+# exp the numbers and store the results
 print("results")
 z = (int(x)  ** int(y))
 print(z)

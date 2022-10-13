@@ -1,16 +1,18 @@
-#get the first number
-x=2
-#get the second number
-y=3
-#add two numbers abd store the result
-z=x**y
-#print(z)
-print(z)
-#get the first number
-x=18
-#get the second number
-y=2
-#add two numbers abd store the result
-z=x**y
-#print(z)
-print(z)
+print("1st input")
+a = input()
+if int(a) < 0:
+    print("na")
+    exit()
+else:
+    print("1st num is " + a)
+print("2nd input")
+b = input()
+if int(b) < 0:
+    print("na")
+    exit()
+else:
+    print("2nd num is " + b)
+
+expon = int(a) ** int(b)
+
+print(expon)

@@ -18,6 +18,6 @@ if int(b) < 0:
 else:
     print("second number is " + b)
     print("result")
-modulus = int(a) // int(b)
+modulus = int(a) % int(b)
 
 print(modulus)

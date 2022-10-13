@@ -1,12 +1,23 @@
-# get the first number
-# print(*enter first input*)
-def add(a, b):
-    sum = a + b
-    return sum
-# Taking input
-num1 = int(input("first number: "))
-num2 = int(input("second number: "))
-# call function
-sum = add(num1, num2)
-# result
-print("Sum of two numbers is: ", sum)
+def sum(x, y):
+    sum = int(p) + int(q)
+    print(sum)
+
+
+print("first input")
+a = input()
+if int(a) < 0:
+    print("not valid")
+    exit()
+else:
+    print("first number is " + a)
+print("second input")
+b = input()
+if int(b) < 0:
+    print("not valid ")
+    exit()
+else:
+    print("second number is " + b)
+    print("result")
+sum = int(a) + int(b)
+
+print(sum)

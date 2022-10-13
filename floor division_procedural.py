@@ -1,16 +1,18 @@
-#get the first number
-x=200
-#get the second number
-y=30
-#add two numbers abd store the result
-z=x//y
-#print(z)
-print(z)
-#get the first number
-x=180
-#get the second number
-y=22
-#add two numbers abd store the result
-z=x//y
-#print(z)
-print(z)
+print("1st input")
+a = input()
+if int(a) < 0:
+    print("na")
+    exit()
+else:
+    print("1st num is " + a)
+print("2nd input")
+b = input()
+if int(b) < 0:
+    print("na")
+    exit()
+else:
+    print("2nd num is " + b)
+
+floor_div = int(a) // int(b)
+print("results")
+print(floor_div)

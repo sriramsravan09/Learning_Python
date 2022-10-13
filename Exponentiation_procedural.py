@@ -5,6 +5,8 @@ if int(a) < 0:
     exit()
 else:
     print("1st num is " + a)
+
+
 print("2nd input")
 b = input()
 if int(b) < 0:
@@ -14,5 +16,6 @@ else:
     print("2nd num is " + b)
 
 expon = int(a) ** int(b)
+print("results")
 
 print(expon)

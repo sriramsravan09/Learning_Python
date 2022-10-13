@@ -14,5 +14,5 @@ else:
     print("2nd num is " + b)
 
 div = int(a) / int(b)
-
+print("results")
 print(div)

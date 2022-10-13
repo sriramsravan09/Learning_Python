@@ -1,16 +1,21 @@
-#get the first number
-x=20
-#get the second number
-y=30
-#add two numbers abd store the result
-z=x%y
-#print(z)
-print(z)
-#get the first number
-x=220
-#get the second number
-y=22
-#add two numbers abd store the result
-z=x%y
-#print(z)
-print(z)
+print("1st input")
+a = input()
+if int(a) < 0:
+    print("na")
+    exit()
+else:
+    print("1st num is " + a)
+
+print("2nd input")
+b = input()
+if int(b) < 0:
+    print("na")
+    exit()
+else:
+    print("2nd num is " + b)
+
+modulue = int(a) % int(b)
+
+print("results")
+
+print(modulue)

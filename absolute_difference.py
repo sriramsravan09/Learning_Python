@@ -1,5 +1,9 @@
 # get the first number
 # print(*enter first input*)
+def sub(x, y):
+    sub = int(p) - int(q)
+    print(sub)
+
 x = input("enter first input")
 print("first value is" + x)
 print("enter second input")

@@ -1,6 +1,6 @@
-def floor_div(x, y):
-    floor_div = int(p) // int(q)
-    print(floor_div)
+def flo_div(a,b):
+    flo_div = int(a) // int(b)
+    print("results are")
 
 
 print("first input")
@@ -18,6 +18,6 @@ if int(b) < 0:
 else:
     print("second number is " + b)
     print("result")
-floor_div = int(a) // int(b)
+flo_div = int(a) // int(b)
 
-print(floor_div)
+print(flo_div)

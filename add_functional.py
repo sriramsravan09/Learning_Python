@@ -1,23 +1,21 @@
-def sum(x, y):
-    sum = int(p) + int(q)
-    print(sum)
+def add(x,y):
+    add=int(x)+int(y)
+    print("results are")
+    print(add)
 
 
-print("first input")
-a = input()
-if int(a) < 0:
-    print("not valid")
-    exit()
+a=int(input("1stnumber"))
+if a<0:
+    print("na")
 else:
-    print("first number is " + a)
-print("second input")
-b = input()
-if int(b) < 0:
-    print("not valid ")
-    exit()
-else:
-    print("second number is " + b)
-    print("result")
-sum = int(a) + int(b)
+    print("you entered",  a)
 
-print(sum)
+b=int(input("2ndnumber"))
+if b<0:
+    print("na")
+else:
+    print("you also entered",  b)
+
+
+add(a,b)
+print(add)

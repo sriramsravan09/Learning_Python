@@ -4,7 +4,7 @@ def leapyear(x):
 
 x = int(input("year:  "))
 if x <= 0:
-    print("year cannot be negative")
+    print("year cannot be zero or negative")
 elif (leapyear(x)):
  print("hurry it is a leap year")
 else:

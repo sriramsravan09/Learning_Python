@@ -1,6 +1,6 @@
 def expon(x, y):
     expon= int(p) ** int(q)
-    print(expon)
+    print("results are")
 
 
 print("first input")

@@ -42,6 +42,21 @@ def quotient(x,y):
 
 print("calculater")
 
+
+print("enter the value for your number")
+x=int(input("1st value is   "))
+if x>=0:
+    print("keep going")
+else:
+    print("stop")
+    exit()
+y = int(input("2nd number"))
+if y>0:
+    print("keep going")
+else:
+    print("stop")
+    exit()
+
 print('''
         + addition
         - sub
@@ -52,9 +67,6 @@ print('''
         // quotient
         ''')
 
-print("enter the value for your number")
-x=int(input("1st value is   "))
-y=int(input("2nd value is  "))
 
 print("seclect the operator")
 

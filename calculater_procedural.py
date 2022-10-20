@@ -18,7 +18,15 @@ print(
 operator = input("enter the symbol")
 # give the values for x and y
 x = int(input("1st number"))
+if x>=0:
+    print("keep going")
+else:
+    print("stop")
 y = int(input("2nd number"))
+if y>0:
+    print("keep going")
+else:
+    print("stop")
 # perform operation based on user choice
 if operator == "+":
  print("results are")

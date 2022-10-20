@@ -1,6 +1,6 @@
 def div(x, y):
     div = int(p) / int(q)
-    print(div)
+    print("results are")
 
 
 print("first input")

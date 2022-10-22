@@ -18,7 +18,7 @@ if int(b) < 0:
 else:
     print("second number is " + b)
     print("result")
-    remainder(a,b)
+remainder(a,b)
 
 
 

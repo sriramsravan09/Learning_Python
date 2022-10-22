@@ -1,6 +1,6 @@
 def expon(x, y):
-    expon= int(p) ** int(q)
-    print("results are")
+    expon= int(x) ** int(y)
+    print(expon)
 
 
 print("first input")
@@ -18,6 +18,5 @@ if int(b) < 0:
 else:
     print("second number is " + b)
     print("result")
-expon = int(a) ** int(b)
-
+expon(a,b)
 print(expon)

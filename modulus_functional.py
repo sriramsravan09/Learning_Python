@@ -1,6 +1,6 @@
-def modulus(x, y):
-    modulus = int(p) % int(q)
-    print(modulus)
+def remainder (x,y):
+    z = int(x)%int(y)
+    print(z)
 
 
 print("first input")
@@ -18,6 +18,9 @@ if int(b) < 0:
 else:
     print("second number is " + b)
     print("result")
-modulus = int(a) % int(b)
+    remainder(a,b)
 
-print(modulus)
+
+
+
+

@@ -1,6 +1,7 @@
 # get the first number
 # print(*enter first input*)
 
+
 x = input("enter first input")
 print("first value is" + x)
 print("enter second input")

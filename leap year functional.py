@@ -1,12 +1,25 @@
-def leapyear(x):
-    return (x % 4 == 0 and x % 100 != float) or x % 400 == 0
-    print("leapyear")
+def leap_year(y):
+    leap_year = int(input(((y % 4 == 0)) and (y % 100 !=0)) or (y % 400 == 0))
 
-x = int(input("year:  "))
-if x <= 0:
-    print("year cannot be zero or negative")
-elif (leapyear(x)):
- print("hurry it is a leap year")
+
+# it is boolen :-    true = leap year : false = not a leap year
+print("enter the year")
+y=int(input("year"))
+if y>0:
+    print("TRUE = LEAPYEAR........ FALSE = NOT A LEAP YEAR")
+    print("you entered a valid number")
+    print("results are")
+    leap_year(y)
 else:
- print("oops it is a not a leap year")
+ print("na")
+
+
+
+
+
+
+
+
+
+
 

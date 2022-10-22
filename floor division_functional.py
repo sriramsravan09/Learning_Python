@@ -1,6 +1,6 @@
 def flo_div(a,b):
-    flo_div = int(a) // int(b)
-    print("results are")
+    y = int(a) // int(b)
+    print(y)
 
 
 print("first input")
@@ -18,6 +18,4 @@ if int(b) < 0:
 else:
     print("second number is " + b)
     print("result")
-flo_div = int(a) // int(b)
-
-print(flo_div)
+flo_div(a,b)

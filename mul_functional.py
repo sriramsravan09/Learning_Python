@@ -1,5 +1,5 @@
 def mul(x, y):
-    mul= int(p) * int(q)
+    mul= int(x) * int(y)
     print(mul)
 
 
@@ -18,6 +18,5 @@ if int(b) < 0:
 else:
     print("second number is " + b)
     print("result")
-mul = int(a) * int(b)
-
+mul(a,b)
 print(mul)

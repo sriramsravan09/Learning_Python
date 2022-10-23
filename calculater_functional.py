@@ -1,41 +1,40 @@
 def add(x,y):
     add=int(x)+int(y)
-    print("results are")
-    print(add)
+    print("results are",   add)
+
 
 def sub(x,y):
     sub=int(x)+int(y)
-    print("results are")
-    print(sub)
+    print("results are",   sub)
+
 
 
 def mul(x,y):
     mul=int(x)*int(y)
-    print("results are")
-    print(mul)
+    print("results are",  mul)
+
 
 
 def div(x,y):
     div=int(x)/int(y)
-    print("results are")
-    print(div)
+    print("results are",   div)
+
 
 def expo(x,y):
     expo=int(x)**int(y)
-    print("results are")
-    print(expo)
+    print("results are",    expo)
 
 
 def reminder(x,y):
     reminder=int(x)%int(y)
-    print("results are")
-    print(reminder)
+    print("results are",    reminder)
+
 
 
 def quotient(x,y):
     quotient=int(x)//int(y)
-    print("results are")
-    print(quotient)
+    print("results are",    quotient)
+
 
 
 
@@ -43,18 +42,13 @@ def quotient(x,y):
 print("calculater")
 
 
-print("enter the value for your number")
-x=int(input("1st value is   "))
-if x>=0:
-    print("keep going")
+print("enter the value for your numbers")
+x=int(input("1st number   "))
+y = int(input("2nd number   "))
+if x>=0 and y>0:
+    print("you entered valid numbers")
 else:
-    print("stop")
-    exit()
-y = int(input("2nd number"))
-if y>0:
-    print("keep going")
-else:
-    print("stop")
+    print("NA")
     exit()
 
 print('''

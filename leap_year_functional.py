@@ -4,7 +4,7 @@ def F_leap_year(y):
 
 # it is boolen :-    true = leap year : false = not a leap year
 print("enter the year")
-y=int(input("year"))
+y=int(input("year="))
 if y>0:
     print("TRUE = LEAPYEAR........ FALSE = NOT A LEAP YEAR")
     print("you entered a valid number")

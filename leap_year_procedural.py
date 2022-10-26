@@ -10,11 +10,11 @@ print("leap year")
 # then check if it is evenly dividing by 400
 
 year = int(input("enter year:  "))
-if year<=0:
-    print ("you entered a in valid number")
-elif year%4==0 and year%100!=0:
-    print("1st condition satisfied , it is a leap year")
-elif year%400==0:
-    print("all three conditions satisfied and it is a leap year")
+if year % 400 == 0:
+    print("leap year")
+elif year % 4 == 0 and year % 100 !=0:
+    print("leap year")
+    # maintain indentation and type how your output wants to look
 else:
     print("not a leap year")
+    exit()

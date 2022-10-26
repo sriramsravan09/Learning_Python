@@ -36,63 +36,60 @@ def quotient(x,y):
     print("results are",    quotient)
 
 
+# show the choice to user
+print("Choose an option from the following :")
+print("(1) Add (+)")
+print("(2) Subtract (-)")
+print("(3) Multiply (*)")
+print("(4) Divide (/)")
+print("(5) Find Remainder (%)")
+print("(6) Find Quotient (//)")
+print("(7) Find Square of a number (**)")
 
 
 
-print("calculater")
+print("Calculator")
 
 
-print("enter the value for your numbers")
-x=int(input("1st number   "))
-y = int(input("2nd number   "))
-if x>=0 and y>0:
-    print("you entered valid numbers")
-else:
-    print("NA")
+#print("enter the value for your numbers")
+x=int(input("1st number:   "))
+y = int(input("2nd number:   "))
+if x<0 and y<0:
+    print("please enter a positive number")
     exit()
 
-print('''
-        + addition
-        - sub
-        * mul
-        / div
-        ** expo
-        % reminder
-        // quotient
-        ''')
 
 
-print("seclect the operator")
-
-operator=input("symbol   ")
 
 
-if operator=="+":
+option = input("Enter your option(1/2/3/4/5/6/7):  ")
+
+
+if option == "1":
     add(x,y)
 
 
-elif operator=="-":
+elif option == "2":
     sub(x,y)
 
 
-elif operator=="*":
+elif option == "3":
     mul(x,y)
 
 
-elif operator=="/":
+elif option == "4":
     div(x,y)
 
-elif operator=="**":
+elif option == "5":
     expo(x,y)
 
-elif operator=="%":
+elif option == "6":
     reminder(x,y)
 
-elif operator=="//":
+elif option == "7":
     quotient(x,y)
 
 else:
-    print("invalid symbol")
     exit()
 
 

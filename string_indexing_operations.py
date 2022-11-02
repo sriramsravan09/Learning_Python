@@ -11,7 +11,7 @@ if len(x) % 2 ==0:
  print("last charecter in ",x, "is...",x[-1] )
  print("length of the string", x,"is",len(x))
  print("middle index is", len(x)/2)
- print("middle character in", x, "is", x[int(len(x) / 2)])
+ print("middle character in ", x, "is", x[int(len(x) / 2)])
 else:
  print("first charecter in", x, "is...", x[0])
  print("last charecter in", x, "is...", x[-1])

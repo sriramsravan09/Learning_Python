@@ -8,7 +8,7 @@ print(x)
 print("you entered:   ", "'",x,"'")
 # Find out first character in the string using string index
 
-print("first charecter in   '",x,"' is", "'",x[0],"'")
+print("first charecter in    '",x,"' is", "'",x[0],"'")
 
 # Find out last character in the string using string index
 

@@ -29,7 +29,7 @@ if len(x) % 2 != 0:
 
 # b. If length of the string in an even number then print two of the middle characters
 else:
- print("middle characters in   '",x,"' are", "'",x[int(len(x) // 2)],"'", "and", "'",x[int(len(x) // 2) + 1],"'")
+ print("middle characters in   '",x,"' are", "'",x[int(len(x) // 2)-1],"'", "and", "'",x[int(len(x) // 2)],"'")
 
 
 
